@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:bisque;
+}
+#box{
+    border: 2px solid black;
+    width: 1000px;
+    height: 80px;
+    margin-left: 90px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#input-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+}
+
+#input-info button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#todo-list,#todo-list1, #title{
+    margin: 30px;
+}
+
+#todo-list ul,#todo-list1 ul,#title{
+    list-style-type: none;
+    padding: 0;
+}
+#todo-list ul li, #todo-list1 ul li ,#title{
+    display: grid;
+    grid-template-columns: 430px 300px 70px 70px 70px 70px;
+    column-gap: 10px;
+    
+}
+#title{
+    padding: 20px;
+    border: 2px solid #ddd;
+    margin: 20px 10px;
+}
+#todo-list li , #todo-list1 li{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+#todo-list li:hover, #todo-list1:hover{
+    border-color: #9361bf;
+}
+
+.delete, .edit,.complete,.save{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.delete:hover{
+    background: #333;
+}
+
+.edit:hover,.save:hover{
+    background-color: #333;
+}
+
+.complete:hover,#add:hover{
+    background-color: #333;
+}
+
+.edit,.hover,.complete,.delete,.save{
+    text-align: center;
+}
+
+.name,.dess{
+    text-overflow:clip;
+    word-wrap: break-word;
+}
+
+.title1{
+    margin: 30px;
+}

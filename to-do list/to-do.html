@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <p style="font-size: 50px; text-align:center">TO-DO List</p>
+    <div id="box">  
+        <form id="input-info">
+            <input style="width: 350px;height: 40px;" type="text" class="names" placeholder="Enter your to-do work..">
+            <input style="width: 350px;height: 40px;" type="text" class="des" placeholder="Enter your description">
+            <button type="submit" id="add">Add</button>
+            
+        </form>
+    </div>
+
+    <div id="todo-list">
+        <h2 class="title">Your pending To-Do list</h2>
+        <ul>
+            <li class="task">
+                <span class="name">Oasis</span>
+                <span class="dess">Web Development</span>
+                <span class="edit">edit</span>
+                <span class="complete">complete</span>
+                <span class="delete">delete</span>
+                <span class="save">save</span>
+            </li>
+            <li class="task">
+                <span class="name">Hackerrank</span>
+                <span class="dess">Linked List problems</span>
+                <span class="edit">edit</span>
+                <span class="complete">complete</span>
+                <span class="delete">delete</span>
+                <span class="save">save</span>
+            </li>
+            
+        </ul>
+    </div>
+    <h2 class="title1">Your completed list</h2>
+
+    <div id="todo-list1">
+        <ul>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
